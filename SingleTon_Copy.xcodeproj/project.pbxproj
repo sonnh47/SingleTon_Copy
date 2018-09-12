@@ -11,6 +11,9 @@
 		E7A1D8492126912500029C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A1D8472126912500029C1F /* Main.storyboard */; };
 		E7A1D84B2126912500029C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A1D84A2126912500029C1F /* Assets.xcassets */; };
 		E7A1D84E2126912500029C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A1D84C2126912500029C1F /* LaunchScreen.storyboard */; };
+		E7A1D8562126939700029C1F /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1D8552126939700029C1F /* MasterTableViewController.swift */; };
+		E7A1D858212693AD00029C1F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1D857212693AD00029C1F /* DetailsViewController.swift */; };
+		E7A1D85A212693C600029C1F /* SmartSingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1D859212693C600029C1F /* SmartSingleTon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		E7A1D84A2126912500029C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7A1D84D2126912500029C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7A1D84F2126912500029C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A1D8552126939700029C1F /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		E7A1D857212693AD00029C1F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E7A1D859212693C600029C1F /* SmartSingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSingleTon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				E7A1D84A2126912500029C1F /* Assets.xcassets */,
 				E7A1D84C2126912500029C1F /* LaunchScreen.storyboard */,
 				E7A1D84F2126912500029C1F /* Info.plist */,
+				E7A1D8552126939700029C1F /* MasterTableViewController.swift */,
+				E7A1D857212693AD00029C1F /* DetailsViewController.swift */,
+				E7A1D859212693C600029C1F /* SmartSingleTon.swift */,
 			);
 			path = SingleTon_Copy;
 			sourceTree = "<group>";
@@ -134,6 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A1D8442126912500029C1F /* AppDelegate.swift in Sources */,
+				E7A1D85A212693C600029C1F /* SmartSingleTon.swift in Sources */,
+				E7A1D8562126939700029C1F /* MasterTableViewController.swift in Sources */,
+				E7A1D858212693AD00029C1F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
